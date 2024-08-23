@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+#container{
+    position: relative;
+    max-width: 300px;
+    padding: 20px;
+    border-radius: 12px;
+    background-color:black;
+    box-shadow: 5px 5px 3px black; 
+}
+#disp{
+    height: 70px;
+    width: 100%;
+    border: none;
+    text-align: right;
+    margin-bottom: 15px;
+    font-size: 20px;
+    padding: 15px;
+}
+#cal{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 2fr);
+}
+#cal button{
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #1b1b1c;
+    padding: 12px;
+    color: #fff;
+}
+
+#cal button:active{
+    transform: scale(0.8);
+}
+#cal .operator{
+    color: orange;
+}
+#disp{
+    color: #fff;
+}
