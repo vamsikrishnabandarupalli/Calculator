@@ -1,2 +1,2 @@
 # Calculator
-Calculator app is designed by using HTML5, CSS3, JavaScript. 
+Calculator app is developed by using HTML5, CSS3, JavaScript. 
